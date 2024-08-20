@@ -7,8 +7,8 @@ function removerAcentos(texto) {
 }
 
 function criptografar() {
-    let texto = entradaTexto.value.toLowerCase(); // Converter para minúsculas
-    texto = removerAcentos(texto); // Remover acentos
+    let texto = entradaTexto.value.toLowerCase();
+    texto = removerAcentos(texto);
     let textoCriptografado = texto.replace(/e/g, 'enter').replace(/i/g, 'imes').replace(/a/g, 'ai').replace(/o/g, 'ober').replace(/u/g, 'ufat');
 
     campoTextoEImagem.innerHTML = '<textarea readonly id="saida_texto">' + textoCriptografado + '</textarea>' +
@@ -17,8 +17,8 @@ function criptografar() {
 }
 
 function descriptografar() {
-    let texto = entradaTexto.value.toLowerCase(); // Converter para minúsculas
-    texto = removerAcentos(texto); // Remover acentos
+    let texto = entradaTexto.value.toLowerCase();
+    texto = removerAcentos(texto);
     let textoDescriptografado = texto.replace(/enter/g, 'e').replace(/imes/g, 'i').replace(/ai/g, 'a').replace(/ober/g, 'o').replace(/ufat/g, 'u');
 
     campoTextoEImagem.innerHTML = '<textarea readonly id="saida_texto">' + textoDescriptografado + '</textarea>' +
