@@ -28,7 +28,7 @@ body {
     background-color: #F3F5FC;
     height: 1024px;
     width: 1360px;
-    
+
 }
 
 .logo_alura {
@@ -48,9 +48,10 @@ body {
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
+    outline: 0;
 }
 
-#saida_texto{
+#saida_texto {
     border: none;
     width: 336px;
     height: 740px;
@@ -58,14 +59,14 @@ body {
     left: 1032px;
 
 
-    background-color: background: #FFFFFF;
+    background-color: #FFFFFF;
     color: #495057;
 
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-
+    outline: 0;
 }
 
 
@@ -132,16 +133,16 @@ button:disabled {
     color: var(--cor-principal);
     border: 1px var(--cor-principal) solid;
     cursor: not-allowed;
-} 
+}
 
 .container_botao:hover:enabled {
-    background-color: #084c9b; 
-    cursor: pointer; 
+    background-color: #084c9b;
+    cursor: pointer;
 }
 
 .container_botao_copiar:hover {
-    background-color: #d8e2f1; 
-    cursor: pointer; 
+    background-color: #d8e2f1;
+    cursor: pointer;
 }
 
 .container_botao_copiar.copiado {
@@ -150,15 +151,15 @@ button:disabled {
 }
 
 
-.container_botao_copiar{
+.container_botao_copiar {
     width: 336px;
     height: 67px;
 
-    border:1px solid #0A3871;
-    border-radius:24px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
 
     background-color: inherit;
-    padding:24px;
+    padding: 24px;
 
     font-family: var(--fonte-principal);
     font-size: 16px;
